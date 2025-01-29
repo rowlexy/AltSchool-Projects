@@ -1,0 +1,45 @@
+:root {
+    --header-bg: rgb(235, 30, 150);
+    --text-color: black;
+    --footer-bg: #f1f1f1;
+    --body-bg: rgb(20, 19, 19);
+    --container-bg: rgb(43, 43, 43);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg);
+    font-family: "Raleway", serif;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    background-color: var(--container-bg);
+    height: 50vh;
+    border-bottom: 8px solid var(--footer-bg);
+    width: 100%;
+}
+.top-header {
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    margin: 0 6em 0;
+    top: 50px;
+    width: 320px;
+    padding: 0.25em 0;
+    border-radius: 4px;
+    position: relative;
+}
+.main-body {
+    background-color: var(--footer-bg);
+    width: 360px;
+    margin: 0 3em 0;
+    border-radius: 8px;
+    padding: 3.5em 1.5em 1em 1.5em;
+    text-align: justify;
+}
+.footer-bg {
+    background-color: var(--footer-bg);
+    margin-top: 8em;
+    padding: 0.5em;
+}
