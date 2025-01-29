@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", serif;
+    background-color: rgb(197, 205, 255);
+}
+
+.header-bg {
+    background-image: url(./matthew.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 720px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 2em auto 0 auto;
+}
+.yellow-bg {
+    background-color: #faeab9;
+    padding: 0.5em;
+    font-weight: 700;
+    width: 30%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    position: relative;
+    right: 8px;
+    top: 10px;
+}
+.section-bg {
+    background: #fff;
+    height: 30vh;
+    width: 720px;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 8px;
+    
+    
+}
+.watch-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 0.5em 0.75em;
+}
+.span-text {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #666666;
+}
+/* .section-bg > p {
+    padding: 1em;
+} */
+.last-pg {
+    line-height: 1.5;
+    padding: 0.5em 1em;
+}
+
+@media screen and (max-width: 540px) {
+    .header-bg, .section-bg {
+        width: 480px;
+    }
+    .yellow-bg {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header-bg, .section-bg {
+        width: 380px;
+    }
+    .yellow-bg {
+        width: 40%;
+        font-size: 0.85rem;
+    }
+    .watch-name  {
+        font-size: 0.95rem;
+    }
+    .last-pg, .span-text {
+        font-size: 0.85rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .header-bg, .section-bg {
+        width: 320px;
+    }
+    .yellow-bg {
+        width: 40%;
+        font-size: 0.85rem;
+    }
+    .watch-name  {
+        font-size: 0.95rem;
+    }
+    .last-pg, .span-text {
+        font-size: 0.85rem;
+    }
+}
+
